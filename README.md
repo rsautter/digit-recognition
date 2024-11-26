@@ -344,7 +344,7 @@ After deploying the application on AWS ECS, everything was set up successfully. 
 ### 1. **ECS Cluster Dashboard**
 Upon visiting the AWS ECS cluster, I confirmed that the service was up and running. Here’s a screenshot of the ECS Cluster dashboard with the deployed service and task details:
 
-![ECS Cluster Dashboard](./images/ecs-cluster-dashboard.png)
+![ECS Cluster Dashboard](images/ecs-cluster-dashboard.png)
 
 ### 2. **Service Running on AWS Fargate**
 The service deployed successfully with a public IP, and I was able to access the frontend and backend APIs through the respective ports:
@@ -352,7 +352,7 @@ The service deployed successfully with a public IP, and I was able to access the
 - **Frontend (Streamlit)**:  
    Access the digit recognition UI via the Streamlit app. It was successfully served on port `8501`.
 
-   ![Streamlit Frontend](./images/streamlit-frontend.png)  
+   ![Streamlit Frontend](images/streamlit-frontend.png)  
    *(This image shows the user interface of the frontend where users can draw a digit.)*
 
 - **Backend (FastAPI)**:  
@@ -378,11 +378,11 @@ Here’s a step-by-step breakdown of how the application works:
 
     | **Digit 0** | **Digit 1** | **Digit 2** | **Digit 3** | **Digit 4** |
     |:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|
-    | ![Application in Action - Example 0](./images/application-in-action-0.png) | ![Application in Action - Example 1](./images/application-in-action-1.png) | ![Application in Action - Example 2](./images/application-in-action-2.png) | ![Application in Action - Example 3](./images/application-in-action-3.png) | ![Application in Action - Example 4](./images/application-in-action-4.png) |
+    | ![Application in Action - Example 0](images/application-in-action-0.png) | ![Application in Action - Example 1](images/application-in-action-1.png) | ![Application in Action - Example 2](images/application-in-action-2.png) | ![Application in Action - Example 3](images/application-in-action-3.png) | ![Application in Action - Example 4](images/application-in-action-4.png) |
 
     | **Digit 5** | **Digit 6** | **Digit 7** | **Digit 8** | **Digit 9** |
     |:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|
-    | ![Application in Action - Example 5](./images/application-in-action-5.png) | ![Application in Action - Example 6](./images/application-in-action-6.png) | ![Application in Action - Example 7](./images/application-in-action-7.png) | ![Application in Action - Example 8](./images/application-in-action-8.png) | ![Application in Action - Example 9](./images/application-in-action-9.png) |
+    | ![Application in Action - Example 5](images/application-in-action-5.png) | ![Application in Action - Example 6](images/application-in-action-6.png) | ![Application in Action - Example 7](images/application-in-action-7.png) | ![Application in Action - Example 8](images/application-in-action-8.png) | ![Application in Action - Example 9](images/application-in-action-9.png) |
 
 ---
 
