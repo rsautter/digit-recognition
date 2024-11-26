@@ -369,13 +369,14 @@ Here’s a step-by-step breakdown of how the application works:
 
    Here’s a screenshot of the **Streamlit app** in action where users draw a digit, and the model predicts it. The images below show the predicted digits from 0 to 9.
 
-    | **Digit 0** | **Digit 1** | **Digit 2** | **Digit 3** | **Digit 4** |
-    |:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|
-    | ![Application in Action - Example 0](images/application-in-action-0.PNG) | ![Application in Action - Example 1](images/application-in-action-1.PNG) | ![Application in Action - Example 2](images/application-in-action-2.PNG) | ![Application in Action - Example 3](images/application-in-action-3.PNG) | ![Application in Action - Example 4](images/application-in-action-4.PNG) |
+   | **Digit 0** | **Digit 1** | **Digit 2** | **Digit 3** | **Digit 4** |
+   |:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|
+   | <img src="images/application-in-action-0.PNG" height="200"> | <img src="images/application-in-action-1.PNG" height="200"> | <img src="images/application-in-action-2.PNG" height="200"> | <img src="images/application-in-action-3.PNG" height="200"> | <img src="images/application-in-action-4.PNG" height="200"> |
 
-    | **Digit 5** | **Digit 6** | **Digit 7** | **Digit 8** | **Digit 9** |
-    |:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|
-    | ![Application in Action - Example 5](images/application-in-action-5.PNG) | ![Application in Action - Example 6](images/application-in-action-6.PNG) | ![Application in Action - Example 7](images/application-in-action-7.PNG) | ![Application in Action - Example 8](images/application-in-action-8.PNG) | ![Application in Action - Example 9](images/application-in-action-9.PNG) |
+   | **Digit 5** | **Digit 6** | **Digit 7** | **Digit 8** | **Digit 9** |
+   |:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|
+   | <img src="images/application-in-action-5.PNG" height="200"> | <img src="images/application-in-action-6.PNG" height="200"> | <img src="images/application-in-action-7.PNG" height="200"> | <img src="images/application-in-action-8.PNG" height="200"> | <img src="images/application-in-action-9.PNG" height="200"> |
+
 
 ---
 
