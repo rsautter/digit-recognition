@@ -1,0 +1,5 @@
+# Ignore the trained model files
+/models/
+
+# Ignore the MNIST dataset
+/data/MNIST/
