@@ -96,6 +96,7 @@ The model is trained on Google Colab with a **T4 GPU** for acceleration. The pro
 5. **Visualize Results**:
    The script includes a visualization function to display predictions on test images.
 
+---
 ## Frontend: Streamlit Application
 
 The **frontend** for the digit recognition application allows users to draw a digit on a canvas and get predictions. The application is implemented using **Streamlit**, making it interactive and easy to use.
@@ -234,8 +235,6 @@ docker run -p 8000:8000 -p 8501:8501 digit-recognition-app
 2. Draw a digit on the canvas, and the frontend will send the image to the backend for prediction.
 3. View the predicted digit displayed in the app.
 
-Here's how to include the **Pushing Docker Image to Docker Hub** section in your `README.md` file:
-
 ## Pushing Docker Image to Docker Hub
 
 After containerizing the application, the next step is to make the Docker image available online. This allows for easy deployment to cloud services like AWS ECS or Kubernetes. In this project, the Docker Hub repository `aiinabox/digit-recognition-app-rep` is used for hosting the Docker image.
@@ -275,11 +274,11 @@ Once the image is hosted on Docker Hub, it can be used for deployment on various
 - **Local Machines**:  
   Pull and run the Docker image locally using:
   ```bash
-  docker run -p 8000:8000 -p 8501:8501 aiinabox/digit-recognition-app-rep:latest
+  docker run -p 8000:8000 -p 8501:8501 aiinabox/digit-recognition-app-rep:1.0
   ```
 
 - **Cloud Services (e.g., AWS ECS)**:  
-  Use the Docker Hub image URL `aiinabox/digit-recognition-app-rep:latest` for cloud-based deployments.
+  Use the Docker Hub image URL `aiinabox/digit-recognition-app-rep:1.0` for cloud-based deployments.
 
 ## Deploying the Application on AWS ECS
 
@@ -328,12 +327,6 @@ To make the digit recognition application accessible on the cloud, AWS ECS (Elas
 3. Use the following URLs to access your application:
    - **Streamlit Frontend**: `http://<public-ip>:8501`
    - **FastAPI Backend**: `http://<public-ip>:8000`
-
-Certainly! After deploying the application, here's how you can document the results and add images to your `README.md` to show successful deployment and results:
-
----
-
-Here's the updated and rewritten **Deployment Results** section of the README with the images included:
 
 ---
 
