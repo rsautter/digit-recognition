@@ -74,6 +74,16 @@ The model is trained on Google Colab with a **T4 GPU** for acceleration. The pro
 - **Loss Function**: Cross-entropy loss for multi-class classification.
 - **Logging**: All metrics and model checkpoints are logged to W&B.
 
+### Results
+
+- **Training Loss vs. Epoch Graph**:
+  
+  Below is a visualization of the training loss across epochs, showing consistent convergence:
+
+  ![Training Loss vs Epoch](images/Training_Loss.PNG)
+- **Test Accuracy**: Achieved a high test accuracy of **99.28%** on the MNIST dataset.
+
+
 ### Steps to Train the Model
 
 1. **Setup the Environment**:
@@ -96,7 +106,8 @@ The model is trained on Google Colab with a **T4 GPU** for acceleration. The pro
 5. **Visualize Results**:
    The script includes a visualization function to display predictions on test images.
 
----
+--- 
+
 ## Frontend: Streamlit Application
 
 The **frontend** for the digit recognition application allows users to draw a digit on a canvas and get predictions. The application is implemented using **Streamlit**, making it interactive and easy to use.
